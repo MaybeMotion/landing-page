@@ -11,3 +11,11 @@ body {
 .header-hero-wrapper {
     background: #1F2937;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
