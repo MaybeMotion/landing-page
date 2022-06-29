@@ -16,25 +16,70 @@ body {
     display: flex;
     align-items: center;
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 18px;
 }
 
 .header-logo {
     height: 100px;
     width: auto;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .header-links {
     display: flex;
     list-style-type: none;
-    margin-right: 100px;
+    margin-right: 0;
     padding: 0;
     gap: 10px;
 }
 
 .header-links a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.motions-lab-card {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.motions-lab-card p {
+    display: flex;
+    justify-content: center;
+    text-align: ce;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    color: #E5E7EB ;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.hero-image {
+    height: 500px;
+    width: auto;
 }
