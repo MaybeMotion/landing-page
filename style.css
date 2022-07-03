@@ -83,3 +83,35 @@ h1 {
     height: 500px;
     width: auto;
 }
+
+.cards-wrapper {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+}
+
+.card-subtext {
+    text-align: center;
+    margin-top: -15px;
+}
