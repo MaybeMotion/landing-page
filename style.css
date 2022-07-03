@@ -29,7 +29,7 @@ body {
 .header-links {
     display: flex;
     list-style-type: none;
-    margin-right: 0;
+    margin-right: 70px;
     padding: 0;
     gap: 10px;
 }
